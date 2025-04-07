@@ -14,6 +14,8 @@ require "leanprover-community" / "proofwidgets" @ git "v0.0.50"
 require "leanprover-community" / "importGraph" @ git "main"
 require "leanprover-community" / "LeanSearchClient" @ git "main"
 require "leanprover-community" / "plausible" @ git "v4.16.0-rc1"
+require "REPL" from git "https://github.com/leanprover-community/repl.git" @ "v4.16.0"
+require smt from git "https://github.com/ufmg-smite/lean-smt.git" @ "main"
 
 /-!
 ## Options for building mathlib
